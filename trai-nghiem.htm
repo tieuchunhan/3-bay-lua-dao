@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3 BẪY LỪA ĐẢO • TRẢI NGHIỆM THỰC CHIẾN</title>
+<style>
+:root{--bg:#070b14;--card:#101827;--muted:#91a0b5;--text:#f5f7fb;--line:#243044;--red:#ff4057;--amber:#ffb020;--green:#39d98a;--blue:#4d8dff}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 50% -10%,#17243b 0,#070b14 45%);font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--text);min-height:100vh}
+.container{max-width:1100px;margin:auto;padding:34px 20px 60px}.hero{text-align:center;padding:25px 0 30px}
+.badge{display:inline-block;border:1px solid #34415a;background:#121b2c;color:#b8c7dc;border-radius:999px;padding:8px 14px;font-size:12px;letter-spacing:1.5px}
+h1{font-size:clamp(30px,5vw,58px);margin:18px 0 8px;line-height:1.05;letter-spacing:-1.5px}
+.hero p{color:var(--muted);font-size:16px;max-width:760px;margin:0 auto;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+.card{background:linear-gradient(180deg,#111a2a,#0d1420);border:1px solid var(--line);border-radius:22px;padding:24px;min-height:260px;display:flex;flex-direction:column;box-shadow:0 14px 40px #0005;transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:#3b4c68}.num{font-size:12px;color:#8fa4c5;letter-spacing:2px}.icon{font-size:40px;margin:18px 0 8px}
+.card h2{margin:0 0 8px;font-size:22px}.card p{color:var(--muted);line-height:1.55;flex:1}
+button{border:0;border-radius:12px;padding:13px 16px;font-weight:800;cursor:pointer;color:white;background:#1c2b43}button.primary{background:linear-gradient(135deg,#3877ff,#6b4dff)}button:hover{filter:brightness(1.12)}
+.panel{display:none;margin-top:25px;background:#0b111d;border:1px solid #29364d;border-radius:26px;overflow:hidden;box-shadow:0 20px 60px #0008}.panel.active{display:block}
+.topbar{padding:15px 18px;border-bottom:1px solid #263247;display:flex;align-items:center;justify-content:space-between}.back{background:transparent;color:#b7c3d5}
+.scene{padding:28px;min-height:520px;position:relative}.center{max-width:760px;margin:auto}
+.fake-alert{border:1px solid #7f2634;background:linear-gradient(135deg,#291018,#120d13);border-radius:18px;padding:22px;box-shadow:0 0 45px #ff40571a}
+.fake-alert .warning{color:#ff6477;font-weight:900;font-size:12px;letter-spacing:1.5px}.fake-alert h3{font-size:28px;margin:10px 0}.count{font-size:42px;font-weight:900;color:#ff566c;text-align:center;margin:18px}
+.choice{display:grid;gap:12px;margin-top:22px}.choice button{text-align:left;background:#131e30;border:1px solid #2a3951}.choice button:hover{border-color:#5d79a4}
+.reveal{display:none;margin-top:22px;border-radius:18px;padding:20px;background:#111b2a;border:1px solid #33445e}.reveal.show{display:block}.trap{color:#ff5268;font-weight:900;font-size:18px}.lesson{color:#b8c5d8;line-height:1.6}
+.phone{max-width:390px;margin:auto;background:#111827;border:7px solid #202b3e;border-radius:34px;padding:14px;box-shadow:0 25px 60px #0009}.notch{width:120px;height:18px;background:#05080d;border-radius:0 0 15px 15px;margin:-14px auto 18px}
+.msg{background:#1b2738;border-radius:16px 16px 16px 5px;padding:15px;margin:12px 0;line-height:1.5}.msg.in{border-left:3px solid #ffb020}.small{font-size:12px;color:#8190a6}
+.qr{font-size:80px;text-align:center;letter-spacing:8px;filter:blur(.3px)}
+.certificate{border:1px solid #30415d;border-radius:20px;padding:25px;background:linear-gradient(135deg,#111b2c,#0b1019);text-align:center}.certificate h3{font-size:28px;margin:10px}.cta{font-size:17px;background:linear-gradient(135deg,#ff4057,#ff7a45);padding:16px 22px}
+footer{text-align:center;color:#66758c;font-size:12px;margin-top:28px;line-height:1.6}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.scene{padding:18px;min-height:580px}.card{min-height:220px}}
+</style>
+</head>
+<body>
+<div class="container">
+<section class="hero">
+<div class="badge">TẬP HUẤN THỰC CHIẾN • MÔ PHỎNG AN TOÀN</div>
+<h1>3 BẪY LỪA ĐẢO<br><span style="color:#8ea9d5">BẠN SẼ PHẢN ỨNG THẾ NÀO?</span></h1>
+<p>Không chấm điểm. Không lưu thông tin cá nhân. Chỉ trải nghiệm những khoảnh khắc mà kẻ lừa đảo thường dùng để tạo <b>hoảng sợ – gấp gáp – tin tưởng</b>.</p>
+<div style="margin-top:18px;color:#7f91aa;font-size:13px;letter-spacing:.4px">
+<strong style="color:#b8c7dc">Thực hiện bởi Lan Phương - Công an phường B'Lao</strong>
+</div>
+</section>
+
+<div class="grid">
+<div class="card"><div class="num">TRẢI NGHIỆM 01</div><div class="icon">🔐</div><h2>Tài khoản sắp bị khóa</h2><p>Một cảnh báo đỏ xuất hiện. Có lý do, có thời gian đếm ngược và một nút “Xác minh ngay”.</p><button class="primary" onclick="openTrap(12)">Bắt đầu trải nghiệm →</button></div>
+<div class="card"><div class="num">TRẢI NGHIỆM 02</div><div class="icon">📦</div><h2>Shipper 12.000đ</h2><p>Một tin nhắn bất ngờ: đơn hàng giá trị lớn, chỉ cần chuyển một khoản phí nhỏ để nhận.</p><button class="primary" onclick="openTrap(13)">Bắt đầu trải nghiệm →</button></div>
+<div class="card"><div class="num">TRẢI NGHIỆM 03</div><div class="icon">💬</div><h2>Người quen nhờ chuyển tiền</h2><p>Một tin nhắn rất đời thường, xưng hô thân thuộc và tạo cảm giác “không thể từ chối”.</p><button class="primary" onclick="openTrap(14)">Bắt đầu trải nghiệm →</button></div>
+</div>
+
+<div id="t12" class="panel"><div class="topbar"><b>TRẢI NGHIỆM 01</b><button class="back" onclick="location.href='index.htm'">⌂ Trang chính</button></div><div class="scene"><div class="center">
+<div class="fake-alert"><div class="warning">⚠ CẢNH BÁO BẢO MẬT</div><h3>Tài khoản của bạn sắp bị khóa</h3><p>Hệ thống phát hiện một lần đăng nhập bất thường. Nếu không xác minh, quyền truy cập có thể bị hạn chế.</p><div class="count" id="timer">09:59</div><button class="cta" onclick="reveal('r12')">XÁC MINH NGAY</button></div>
+<div class="choice"><button onclick="reveal('r12')">🔴 Tôi nhấp ngay vì sợ tài khoản bị khóa.</button><button onclick="reveal('r12')">🟢 Tôi tự mở ứng dụng/trang chính thức để kiểm tra.</button><button onclick="reveal('r12')">🟡 Tôi chuyển cảnh báo cho người khác hỏi.</button></div>
+<div id="r12" class="reveal"><div class="trap">⚠️ BẠN VỪA CẢM NHẬN CÁI BẪY!</div><p class="lesson">Điểm nguy hiểm không nằm ở màu đỏ hay đồng hồ. Nó nằm ở cảm giác <b>“phải làm ngay”</b>. Khi bị thúc ép, hãy dừng lại và tự truy cập kênh chính thức thay vì dùng liên kết/nút trong cảnh báo.</p></div>
+</div></div></div>
+
+<div id="t13" class="panel"><div class="topbar"><b>TRẢI NGHIỆM 02</b><button class="back" onclick="location.href='index.htm'">⌂ Trang chính</button></div><div class="scene"><div class="phone">
+<div class="notch"></div><div class="small">Tin nhắn mới • vừa nhận</div>
+<div class="msg in"><b>SHIPPER</b><br>Anh/chị ơi, đơn hàng trị giá <b>4.890.000đ</b> đang giao. Anh/chị chuyển giúp em <b>12.000đ phí ship</b> để nhận hàng nhé.</div>
+<div class="msg in">Nếu không thanh toán trong ít phút, đơn có thể được hoàn về kho.</div>
+<div class="qr">▦</div><div class="small" style="text-align:center">Mã thanh toán mô phỏng</div>
+</div>
+<div class="choice"><button onclick="reveal('r13')">🔴 Chuyển 12.000đ vì số tiền nhỏ.</button><button onclick="reveal('r13')">🟢 Kiểm tra đơn hàng trong ứng dụng/website mua hàng chính thức.</button><button onclick="reveal('r13')">🟡 Chuyển trước rồi kiểm tra sau.</button></div>
+<div id="r13" class="reveal"><div class="trap">⚠️ “CHỈ 12.000Đ” CŨNG CÓ THỂ LÀ CÁI BẪY</div><p class="lesson">Kẻ lừa đảo thường làm số tiền ban đầu thật nhỏ để giảm cảnh giác. Hãy kiểm tra đơn hàng từ kênh chính thức. <b>Không quét mã hoặc thanh toán chỉ vì một tin nhắn bất ngờ.</b></p></div>
+</div></div></div>
+
+<div id="t14" class="panel"><div class="topbar"><b>TRẢI NGHIỆM 03</b><button class="back" onclick="location.href='index.htm'">⌂ Trang chính</button></div><div class="scene"><div class="center">
+<div class="certificate"><div class="small">TIN NHẮN • NGƯỜI QUEN</div><h3>Chú Tổ trưởng ơi...</h3><p style="font-size:20px;line-height:1.55">“Chú Tổ trưởng ơi, chuyển giúp cháu <b>1.000.000đ</b> nhé, cháu con bác Hà gần nhà mình đây ạ”</p><p class="small">Tin nhắn đến bất ngờ • Người gửi tự xưng là người quen</p></div>
+<div class="choice"><button onclick="reveal('r14')">🔴 Chuyển ngay vì là người quen.</button><button onclick="reveal('r14')">🟢 Gọi trực tiếp bằng số điện thoại đã lưu để xác minh.</button><button onclick="reveal('r14')">🟡 Nhắn “Có đúng bạn không?” rồi chuyển.</button></div>
+<div id="r14" class="reveal"><div class="trap">⚠️ CÁI BẪY NẰM Ở “SỰ QUEN THUỘC”</div><p class="lesson">Tên tuổi, cách xưng hô và câu chuyện quen thuộc có thể tạo cảm giác tin cậy. Nhưng tài khoản có thể đã bị chiếm đoạt hoặc giả mạo. Cách xác minh chắc chắn hơn là <b>gọi bằng kênh liên lạc bạn đã biết từ trước</b>.</p></div>
+</div></div></div>
+
+<footer>ĐÂY LÀ MÔ PHỎNG PHỤC VỤ TẬP HUẤN • KHÔNG GỬI TIN NHẮN THẬT • KHÔNG THU THẬP MẬT KHẨU, OTP, THÔNG TIN NGÂN HÀNG HAY DỮ LIỆU CÁ NHÂN</footer>
+<div style="text-align:center;margin-top:18px">
+<a href="index.htm" style="color:#9db5da;text-decoration:none;font-size:13px">⌂ Về trang chính</a>
+</div>
+</div>
+<script>
+function openTrap(n){document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));document.getElementById('t'+n).classList.add('active');window.scrollTo({top:document.getElementById('t'+n).offsetTop-15,behavior:'smooth'});}
+function closeTrap(){document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));window.scrollTo({top:0,behavior:'smooth'});}
+function reveal(id){document.getElementById(id).classList.add('show');setTimeout(()=>document.getElementById(id).scrollIntoView({behavior:'smooth',block:'center'}),50);}
+window.addEventListener('load',()=>{if(location.hash){const p=document.querySelector(location.hash);if(p){p.classList.add('active');setTimeout(()=>p.scrollIntoView({behavior:'smooth',block:'start'}),100);}}});
+let sec=599;setInterval(()=>{if(document.getElementById('t12').classList.contains('active')&&sec>0){sec--;let m=String(Math.floor(sec/60)).padStart(2,'0'),s=String(sec%60).padStart(2,'0');document.getElementById('timer').textContent=m+':'+s;}},1000);
+</script>
+</body></html>

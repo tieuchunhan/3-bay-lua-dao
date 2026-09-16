@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRẢI NGHIỆM 3 BẪY LỪA ĐẢO</title>
+<style>
+:root{--bg:#070b14;--card:#101827;--text:#f5f7fb;--muted:#91a0b5;--line:#26344b}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 50% -10%,#1b2942 0,#070b14 48%)}
+.wrap{max-width:1050px;margin:auto;padding:48px 20px 55px}.hero{text-align:center}.badge{display:inline-block;padding:8px 14px;border:1px solid #34415a;border-radius:999px;color:#b7c6dc;font-size:12px;letter-spacing:1.5px;background:#111a2a}
+h1{font-size:clamp(34px,6vw,62px);line-height:1.03;letter-spacing:-2px;margin:20px 0 12px}.hero p{max-width:760px;margin:0 auto;color:var(--muted);line-height:1.65;font-size:16px}
+.author{margin-top:18px;color:#b8c7dc;font-size:14px}.author span{color:#8192aa}
+.notice{max-width:800px;margin:32px auto 25px;padding:16px 18px;border:1px solid #30415b;border-radius:16px;background:#0e1725;color:#b8c5d8;text-align:center;line-height:1.55}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(180deg,#111b2b,#0c131f);border:1px solid var(--line);border-radius:22px;padding:24px;min-height:270px;display:flex;flex-direction:column;box-shadow:0 16px 45px #0006;transition:.25s}.card:hover{transform:translateY(-5px);border-color:#405473}
+.no{font-size:11px;letter-spacing:2px;color:#8195b3}.icon{font-size:42px;margin:18px 0 8px}.card h2{margin:0 0 9px;font-size:21px}.card p{color:var(--muted);line-height:1.55;flex:1}
+a.btn{display:block;text-align:center;text-decoration:none;background:linear-gradient(135deg,#3877ff,#6b4dff);color:white;padding:13px;border-radius:12px;font-weight:800}
+footer{text-align:center;color:#65758e;font-size:12px;margin-top:35px;line-height:1.7}
+@media(max-width:800px){.cards{grid-template-columns:1fr}.wrap{padding-top:30px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section class="hero">
+<div class="badge">TẬP HUẤN THỰC CHIẾN • MÔ PHỎNG AN TOÀN</div>
+<h1>3 BẪY LỪA ĐẢO</h1>
+<p>Không chấm điểm. Không thi. Không có đáp án để “đoán cho đúng”. Hãy trải nghiệm cảm giác bị thúc ép, bị làm cho tin tưởng và tự quan sát phản ứng của chính mình.</p>
+<div class="author">Thực hiện bởi <strong>Lan Phương</strong> <span>-</span> <strong>Công an phường B'Lao</strong></div>
+</section>
+
+<div class="notice">⚠️ Đây là <b>mô phỏng phục vụ tập huấn</b>. Không gửi dữ liệu ra ngoài và không yêu cầu thông tin thật. Mục tiêu là nhận diện các thủ thuật tâm lý thường xuất hiện trong lừa đảo.</div>
+
+<div class="cards">
+<div class="card"><div class="no">TRẢI NGHIỆM 01</div><div class="icon">🔐</div><h2>Tài khoản sắp bị khóa</h2><p>Cảnh báo đỏ, đăng nhập bất thường và đồng hồ đếm ngược tạo cảm giác phải hành động ngay.</p><a class="btn" href="trai-nghiem.htm#t12">Trải nghiệm →</a></div>
+<div class="card"><div class="no">TRẢI NGHIỆM 02</div><div class="icon">📦</div><h2>Shipper 12.000đ</h2><p>Một khoản tiền rất nhỏ được đưa ra để làm giảm cảnh giác và thúc đẩy hành động nhanh.</p><a class="btn" href="trai-nghiem.htm#t13">Trải nghiệm →</a></div>
+<div class="card"><div class="no">TRẢI NGHIỆM 03</div><div class="icon">💬</div><h2>Người quen nhờ chuyển tiền</h2><p>Cách xưng hô thân thuộc và câu chuyện gần gũi khiến người nhận dễ bỏ qua bước xác minh.</p><a class="btn" href="trai-nghiem.htm#t14">Trải nghiệm →</a></div>
+</div>
+
+<footer>
+THỰC HIỆN BỞI LAN PHƯƠNG - CÔNG AN PHƯỜNG B'LAO<br>
+Mô phỏng phục vụ tuyên truyền, tập huấn an toàn thông tin.
+</footer>
+</div>
+<script>
+function openHash(){
+ const h=location.hash;
+ if(h){const id=h.substring(1); const p=document.getElementById(id); if(p){p.classList.add('active');p.scrollIntoView({behavior:'smooth'});}}
+}
+</script>
+</body></html>
